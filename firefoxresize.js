@@ -4,20 +4,21 @@
 
 	// Set styles
 	const __ffr_styles = {
-		backgroundColor: '#fafafa',
-		border: '1px solid #eee',
-		borderRadius: '4px',
-		boxShadow: '0 1px 2px #ededed',
+		backgroundColor: '#393939',
+		borderRadius: '0 0 7px 7px',
+		color: '#fafafa',
 		fontSize: '14px',
+		left: '50%',
 		maxHeight: '70px',
 		maxWidth: '140px',
 		opacity: '0',
-		padding: '4px 7px',
+		padding: '7px 14px',
 		pointerEvents: 'none',
 		position: 'absolute',
-		top: '7px',
+		top: '0',
+		transform: 'translateX(-50%)',
 		transition: 'opacity 0.35s ease-out',
-		right: '7px'
+		zIndex: '999'
 	}
 
 	// Apply styles
